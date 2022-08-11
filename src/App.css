@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    font-weight: 900;
+}
+.container__main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-image: url('https://cloud1.on.gt/data/star/goes_cam13w.gif?0.6393021999392658');
+    background-color: blue;
+}
+
+.container__1{
+    border: 1px solid aquamarine;
+    padding: 1em 1em 1em 1em;
+    background-color: aquamarine;
+    border-radius: 1em;
+}
+
+span{
+    color: blueviolet;
+}
+
+button{
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 4px;
+    color: white;
+}
+
+.container__button{
+    text-align: center;
+}
+
+.container__2{
+    display: flex;
+}
+
+.card__title{
+    text-align: center;
+}
+
+.card__title h1,h3 {
+    padding: 10px;
+    color: blueviolet;
+}
+
+.card__img{
+    height: 120px;
+}
+
+.temperature{
+    padding: 0 0 0 1.1em;
+}
+
+ul{
+    list-style: none;
+}
+
+.card__ligth__rain h3{
+    text-align: center;
+}
